@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InputActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="393dp"
+        android:layout_height="56dp"
+        android:contentDescription="Title"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/iconfinder_android_robot_mobile_mood_emoji_crash_bug_dead_1172120" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/iconfinder_android_robot_mobile_mood_emoji_sad_crying_1172126" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/iconfinder_android_robot_mobile_mood_emoji_sad_1172128" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/iconfinder_android_robot_mobile_mood_emoji_happy_smile_1172131" />
+    </android.support.v7.widget.GridLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Submit entry!" />
+</LinearLayout>
