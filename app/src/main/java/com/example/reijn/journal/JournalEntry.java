@@ -6,10 +6,9 @@ import java.util.Timer;
 public class JournalEntry implements Serializable {
 
     private  int id;
-    private String title, content, mood;
-    private Timer timestamp;
+    private String title, content, mood, timestamp;
 
-    public JournalEntry(int id, String title, String content, String mood, Timer timestamp) {
+    public JournalEntry(int id, String title, String content, String mood, String timestamp) {
         this.id = id;
         this.title = title;
         this.content = content;
@@ -33,7 +32,7 @@ public class JournalEntry implements Serializable {
         return mood;
     }
 
-    public Timer getTimestamp() {
+    public String getTimestamp() {
         return timestamp;
     }
 }

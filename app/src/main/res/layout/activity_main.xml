@@ -13,9 +13,12 @@
         android:layout_gravity="bottom|end"
         android:clickable="true"
         android:onClick="onClick"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/colorPrimary"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ListView
+        android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

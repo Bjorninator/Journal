@@ -24,6 +24,7 @@
         android:layout_height="265dp"
         android:layout_weight="1"
         android:ems="10"
+        android:gravity="top|left"
         android:inputType="textPersonName" />
 
     <android.support.v7.widget.GridLayout
@@ -31,37 +32,47 @@
         android:layout_height="110dp">
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/dead"
             android:layout_width="103dp"
             android:layout_height="wrap_content"
+            android:contentDescription="dead"
+            android:onClick="Mood"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/iconfinder_android_robot_mobile_mood_emoji_crash_bug_dead_1172120" />
+            app:srcCompat="@drawable/dead" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/sadder"
             android:layout_width="103dp"
             android:layout_height="wrap_content"
+            android:contentDescription="sadder"
+            android:onClick="Mood"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/iconfinder_android_robot_mobile_mood_emoji_sad_crying_1172126" />
+            app:srcCompat="@drawable/sadder" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/sad"
             android:layout_width="103dp"
             android:layout_height="wrap_content"
+            android:contentDescription="sad"
+            android:onClick="Mood"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/iconfinder_android_robot_mobile_mood_emoji_sad_1172128" />
+            app:srcCompat="@drawable/sad" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/smile"
             android:layout_width="103dp"
             android:layout_height="wrap_content"
+            android:contentDescription="smile"
+            android:onClick="Mood"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/iconfinder_android_robot_mobile_mood_emoji_happy_smile_1172131" />
+            app:srcCompat="@drawable/smile" />
     </android.support.v7.widget.GridLayout>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="65dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:onClick="addEntry"
         android:text="Submit entry!" />
 </LinearLayout>
