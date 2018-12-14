@@ -26,7 +26,9 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="38dp"
+            android:fontFamily="@font/luckiest_guy"
             android:text="TextView"
+            android:textColor="@android:color/darker_gray"
             android:textSize="18sp" />
 
         <TextView
@@ -34,7 +36,9 @@
             android:layout_width="wrap_content"
             android:layout_height="37dp"
             android:layout_marginLeft="5dp"
+            android:fontFamily="@font/luckiest_guy"
             android:text="TextView"
+            android:textColor="@android:color/darker_gray"
             android:textSize="18sp" />
     </android.support.v7.widget.GridLayout>
 
@@ -44,6 +48,6 @@
         android:layout_height="39dp"
         android:text="TextView"
         android:textAlignment="viewStart"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
 </LinearLayout>
